@@ -43,7 +43,7 @@ li:hover{
     padding-top: 9px;
 }
 
-/* Main */
+/* section header */
 
 .header {
     background-image: url(./img/img-mission-background.jpg);
@@ -57,4 +57,24 @@ li:hover{
     align-content: center;
     margin-top: calc(100%/5);
     height: calc(100%/4);
+}
+
+
+/* section Imagen-text */
+
+.article {
+    width: 1000px;
+    margin: 70px auto;
+
+}
+
+.container-img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+img {
+    width: 300px;
+    height: 200px;
 }
