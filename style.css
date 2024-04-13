@@ -106,5 +106,11 @@ img {
 
 .panel-location {
     width: 300px;
-   
+}
+
+/* Footer */
+.footer {
+    display: flex;
+    align-content: start;
+    margin-left: 20px;
 }
